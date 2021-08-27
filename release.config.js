@@ -1,13 +1,14 @@
 module.exports = {
-    "branches":["main"],
-    "plugins": [
-        "@semantic-release/commit-analyzer",
-        "@semantic-release/release-notes-generator",
-        "@semantic-release/changelog",
-        "@semantic-release/npm",
+    branch: 'main',
+    plugins: [
+        ['@semantic-release/commit-analyzer'],
+        '@semantic-release/release-notes-generator',
         [
-            "@semantic-release/git",
-            {"assets": ["CHANGELOG.md"]}
-        ]
-    ]
-}
+            '@semantic-release/changelog',
+            {
+                changelogFile: 'CHANGELOG.md',
+            },
+        ],
+        '@semantic-release/git',
+    ],
+};
