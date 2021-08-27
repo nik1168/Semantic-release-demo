@@ -17,7 +17,8 @@
     ]
   },
   "scripts": {
-    "test": "jest test.js"
+    "test": "jest test.js",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
