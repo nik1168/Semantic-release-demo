@@ -1,0 +1,26 @@
+{
+  "name": "semantic-release-demo",
+  "version": "1.0.0",
+  "description": "demo semantic",
+  "main": "index.js",
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "semantic-release": "^17.0.4"
+  },
+  "scripts": {
+    "test": "jest test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nik1168/Semantic-release-demo.git"
+  },
+  "keywords": [
+    "semantic"
+  ],
+  "author": "Niklaus Geisser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nik1168/Semantic-release-demo/issues"
+  },
+  "homepage": "https://github.com/nik1168/Semantic-release-demo#readme"
+}
