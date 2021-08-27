@@ -17,4 +17,5 @@ module.exports = {
     add: add,
     multiply: multiply,
     subtract: subtract,
+    divide: divide
 };
