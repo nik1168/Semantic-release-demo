@@ -4,10 +4,15 @@
   "description": "demo semantic",
   "main": "index.js",
   "devDependencies": {
+    "@semantic-release/changelog": "^5.0.1",
     "jest": "^25.1.0",
     "semantic-release": "^17.0.4"
   },
-  "release": { "branches": [ "main" ] },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
   "scripts": {
     "test": "jest test.js"
   },
