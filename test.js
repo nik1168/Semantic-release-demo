@@ -12,3 +12,7 @@ test('subtract', () => {
     expect(operations.subtract(1, 2)).toEqual(-1)
 })
 
+test('divide', () => {
+    expect(operations.divide(1, 1)).toEqual(1)
+})
+

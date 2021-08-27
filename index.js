@@ -9,8 +9,13 @@ function subtract(a,b){
     return a -  b;
 }
 
+function divide(a,b){
+    return a /  b;
+}
+
 module.exports = {
     add: add,
     multiply: multiply,
     subtract: subtract,
+    divide: divide
 };
