@@ -7,3 +7,8 @@ test('add', () => {
 test('multiply', () => {
     expect(operations.multiply(1, 2)).toEqual(2)
 })
+
+test('subtract', () => {
+    expect(operations.subtract(1, 2)).toEqual(-1)
+})
+
